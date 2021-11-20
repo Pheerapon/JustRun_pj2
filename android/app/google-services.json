@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "165957638642",
+    "firebase_url": "https://just-run-pj2-default-rtdb.firebaseio.com",
+    "project_id": "just-run-pj2",
+    "storage_bucket": "just-run-pj2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165957638642:android:2a60c4e0b179f32c60736b",
+        "android_client_info": {
+          "package_name": "dev.timistudio.habitrun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165957638642-qrs52j2jssrsid8guseaccp57m66c0hm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUoz1i56c8_WCt3iGeraSRQ0YINAdto-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165957638642-qrs52j2jssrsid8guseaccp57m66c0hm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "165957638642-q0prbles65i2cmpmchgbu3ejj7gjeviv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dev.timistudio.stag.habit-run"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

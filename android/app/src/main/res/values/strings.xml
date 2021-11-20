@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JustRun</string>
+    <!-- TODO: Change your facebook app id & protocol scheme -->
+    <string name="facebook_app_id">171924325150787</string>
+    <string name="fb_login_protocol_scheme">fb171924325150787</string>
+
+    <!-- Start HomeWidget String -->
+    <string name="hw_unit">Km</string>
+    <string name="hw_button">RUN</string>
+    <!-- END HomeWidget String -->
+</resources>

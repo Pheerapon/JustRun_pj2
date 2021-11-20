@@ -1,0 +1,1 @@
+CREATE TABLE "public"."RankingFriends" ("id" serial NOT NULL, "owner_team" text NOT NULL, "user_id" text NOT NULL, "name" text NOT NULL, "avatar" text, PRIMARY KEY ("id") , FOREIGN KEY ("owner_team") REFERENCES "public"."User"("id") ON UPDATE cascade ON DELETE cascade, FOREIGN KEY ("user_id") REFERENCES "public"."User"("id") ON UPDATE cascade ON DELETE cascade, UNIQUE ("id"));

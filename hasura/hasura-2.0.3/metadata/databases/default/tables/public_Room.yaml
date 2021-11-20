@@ -1,0 +1,46 @@
+table:
+  name: Room
+  schema: public
+insert_permissions:
+- permission:
+    backend_only: false
+    check:
+      user_id:
+        _eq: X-Hasura-User-Id
+    columns:
+    - user_id
+    - flag_start
+    - created_at
+    - updated_at
+    - id
+    - name_room
+  role: user
+select_permissions:
+- permission:
+    columns:
+    - flag_start
+    - id
+    - name_room
+    - user_id
+    - created_at
+    - updated_at
+    filter: {}
+  role: user
+update_permissions:
+- permission:
+    check: null
+    columns:
+    - flag_start
+    - id
+    - name_room
+    - user_id
+    - created_at
+    - updated_at
+    filter: {}
+  role: user
+delete_permissions:
+- permission:
+    filter:
+      user_id:
+        _eq: X-Hasura-User-Id
+  role: user
