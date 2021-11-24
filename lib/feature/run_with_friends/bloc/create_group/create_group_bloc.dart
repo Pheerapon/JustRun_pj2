@@ -78,7 +78,7 @@ class CreateGroupBloc extends Bloc<CreateGroupEvent, CreateGroupState> {
     ScaffoldMessenger.of(context).showSnackBar(
       AppWidget.customSnackBar(
         color: caribbeanGreen,
-        content: 'Create Group success',
+        content: 'Create Challenge success',
       ),
     );
   }
@@ -87,14 +87,14 @@ class CreateGroupBloc extends Bloc<CreateGroupEvent, CreateGroupState> {
     ScaffoldMessenger.of(context).showSnackBar(
       AppWidget.customSnackBar(
         color: caribbeanGreen,
-        content: 'Name Group already exists',
+        content: 'Challenge name already exists',
       ),
     );
   }
 
   String _nameGroupError(String nameGroupString) {
     if (nameGroupString.isEmpty) {
-      return "Name Group can't empty";
+      return "Challenge name can't empty";
     } else {
       return null;
     }

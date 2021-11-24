@@ -58,8 +58,8 @@ class _MenuDialogGroupState extends State<MenuDialogGroup> {
                     DialogInvite().showDialogInvite(
                         context: context,
                         content: checkOwner
-                            ? 'Do you want to delete this group ?'
-                            : 'Do you want to leave this group ?',
+                            ? 'Do you want to delete this challenge ?'
+                            : 'Do you want to leave this challenge ?',
                         nS: 'No',
                         pS: 'Yes',
                         nF: () {
@@ -74,7 +74,7 @@ class _MenuDialogGroupState extends State<MenuDialogGroup> {
                   },
                   child: Center(
                     child: Text(
-                      checkOwner ? 'Delete Groups' : 'Leave Groups',
+                      checkOwner ? 'Delete Challenge' : 'Leave Challenge',
                       style: AppWidget.boldTextFieldStyle(
                           color: ultramarineBlue,
                           fontWeight: FontWeight.w600,

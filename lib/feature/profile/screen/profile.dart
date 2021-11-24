@@ -97,14 +97,14 @@ class _ProfileState extends State<Profile> with AutomaticKeepAliveClientMixin {
                   bgColor: ultramarineBlue,
                   vertical: 12),
             ),
-            Padding(
-              padding: const EdgeInsets.only(bottom: 8),
-              child: Text(
-                EnvValue.version,
-                style: AppWidget.simpleTextFieldStyle(
-                    fontSize: 14, height: 21, color: grey600),
-              ),
-            )
+            // Padding(
+            //   padding: const EdgeInsets.only(bottom: 8),
+            //   child: Text(
+            //     EnvValue.version,
+            //     style: AppWidget.simpleTextFieldStyle(
+            //         fontSize: 14, height: 21, color: grey600),
+            //   ),
+            // )
           ],
         ),
       ),

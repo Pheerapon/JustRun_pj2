@@ -98,7 +98,7 @@ class _ListGroupState extends State<ListGroup> {
                   Padding(
                     padding: const EdgeInsets.only(right: 16),
                     child: Text(
-                      ' ', //create group
+                      'create challenge', //create group
                       style: AppWidget.boldTextFieldStyle(
                           fontSize: 12, height: 18, color: ultramarineBlue),
                     ),
@@ -127,7 +127,7 @@ class _ListGroupState extends State<ListGroup> {
                   return groups.isEmpty
                       ? Center(
                           child: Text(
-                          "You don't have any groups yet",
+                          "You don't have any challenge yet",
                           style: AppWidget.simpleTextFieldStyle(
                               fontSize: 20,
                               height: 24,
@@ -176,15 +176,15 @@ class _ListGroupState extends State<ListGroup> {
                                                 height: 28,
                                                 color:
                                                     Theme.of(context).color7)),
-                                        // MenuDialogGroup(
-                                        //     roomId: roomModel.id,
-                                        //     ownerId: roomModel.userId)
+                                        MenuDialogGroup(
+                                            roomId: roomModel.id,
+                                            ownerId: roomModel.userId)
                                       ],
                                     ),
-                                    // MemberAvatar(
-                                    //     roomId: roomModel.id,
-                                    //     ownerId: roomModel.userId,
-                                    //     showInvite: false),
+                                    MemberAvatar(
+                                        roomId: roomModel.id,
+                                        ownerId: roomModel.userId,
+                                        showInvite: false),
                                   ],
                                 ),
                               ),

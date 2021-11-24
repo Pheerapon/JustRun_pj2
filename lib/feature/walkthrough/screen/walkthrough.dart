@@ -118,14 +118,14 @@ class WalkThrough extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Container(
-                      padding: const EdgeInsets.only(top: 48, left: 32),
-                      alignment: Alignment.centerLeft,
-                      child: Image.asset(
-                        'images/logoDetail@3x.png',
-                        fit: BoxFit.cover,
-                        width: width / 2,
-                      )),
+                  // Container(
+                  //     padding: const EdgeInsets.only(top: 48, left: 32),
+                  //     alignment: Alignment.centerLeft,
+                  //     child: Image.asset(
+                  //       'images/logoDetail@3x.png',
+                  //       fit: BoxFit.cover,
+                  //       width: width / 2,
+                  //     )),
                   Container(
                     height: height / 203 * 95,
                     padding: const EdgeInsets.only(top: 40),
@@ -159,8 +159,7 @@ class WalkThrough extends StatelessWidget {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 45),
+                    padding: const EdgeInsets.symmetric(horizontal: 45),
                     child: OptionLogin(),
                   )
                 ],

@@ -171,7 +171,7 @@ class _ItemInviteState extends State<ItemInvite> {
                           ScaffoldMessenger.of(context).showSnackBar(
                               AppWidget.customSnackBar(
                                   content:
-                                      'This person is already in the group',
+                                      'This person is already in the challenge',
                                   color: caribbeanGreen));
                         }
                       }

@@ -49,7 +49,7 @@ class _CreateGroupState extends State<CreateGroup> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Create Groups',
+                  'Create Challenge',
                   style: Theme.of(context).textTheme.headline1,
                 ),
                 Padding(
@@ -57,7 +57,7 @@ class _CreateGroupState extends State<CreateGroup> {
                   child: FormCreateGroup(
                     controller: nameGroupController,
                     focusNode: nameGroupNode,
-                    label: 'Name Group',
+                    label: 'Distance',
                   ),
                 ),
                 Row(
@@ -122,7 +122,7 @@ class _CreateGroupState extends State<CreateGroup> {
       bottomNavigationBar: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 8),
         child: AppWidget.typeButtonStartAction(
-            input: 'Create Groups',
+            input: 'Create Challenge',
             onPressed: () {
               searchNameBloc.add(ResetInviteEvent());
               createGroupBloc.add(CreatePressed(

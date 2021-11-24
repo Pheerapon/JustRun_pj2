@@ -77,7 +77,7 @@ class _InviteFriendsState extends State<InviteFriends> {
                               padding:
                                   const EdgeInsets.only(top: 10, bottom: 16),
                               child: Text(
-                                'Invite friends to get more points',
+                                ' ',
                                 style: AppWidget.simpleTextFieldStyle(
                                     fontSize: 16,
                                     height: 24,
